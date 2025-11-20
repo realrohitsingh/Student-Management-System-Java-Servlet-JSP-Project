@@ -1,0 +1,23 @@
+# Ignore build artifacts and IDE files
+/build/
+**/classes/
+*.class
+
+# Eclipse/IDE files
+.classpath
+.project
+.settings/
+
+# Tomcat uploads and temporary files
+/src/main/webapp/uploads/
+
+# Node / npm
+node_modules/
+package-lock.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
