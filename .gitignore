@@ -1,31 +1,27 @@
-# Ignore Eclipse project files
+# Eclipse / Java
 .project
 .classpath
 .settings/
 
-# Ignore build directories
+# Build / IDE output
 bin/
 build/
 target/
 
-# Ignore compiled Java classes
+# Compiled files
 *.class
 
-# Ignore logs
+# Logs and temporary
 *.log
-
-# Ignore temporary files
 *.tmp
 *.swp
 *.swo
 
-# Ignore macOS system files
+# OS files
 .DS_Store
-
-# Ignore Windows system files
 Thumbs.db
 desktop.ini
 
-# Ignore Eclipse workspace folders accidentally added
+# Workspace and server files (don't push)
 .metadata/
 Servers/
